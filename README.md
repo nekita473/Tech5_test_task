@@ -1,1 +1,1 @@
-# Tech5_test_task
+The task of classifying whether a person is wearing a mask or not has been completed. Data was received with 'Яндекс.Картинки': firstly it was typed request 'Лицо человека' for not in mask and 'Человек в маске' for in mask. Than both pages were scrolled till the end and were saved as html files with folders, containing images from this pages (It is presented in data.zip). Then CustomDataset class was created and CNN with FC layers on the top was learned with Cross-Entropy loss and AdamW optimizer. Evaluation with cross-validation shows accuracy 89.43 %.
